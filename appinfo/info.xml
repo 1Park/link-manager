@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>linkmanager</id>
+	<name>Link Manager</name>
+	<summary>Convenient tools for external share URL Link</summary>
+	<description>Convenient tools for external share URL Link
+- To see every shared URL in 1 page
+- Create shared links for all files at once
+- Unshare all files at once</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="myself9875@gmail.com" homepage="">Won Park</author>
+	<namespace>LinkManager</namespace>
+	<category>tools</category>
+	<bugs>http://test.com</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="32"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>linkmanager</id>
+			<name>Link Manager</name>
+			<route>linkmanager.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
